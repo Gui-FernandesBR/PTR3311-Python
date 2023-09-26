@@ -1,0 +1,6 @@
+geemap>=0.26
+datetime
+earthengine-api
+folium
+jupyter
+ipykernel
