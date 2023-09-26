@@ -1,15 +1,19 @@
-# LABORATÓRIOS DIDÁTICOS DE GEOPROCESSAMENTO 🌍📊
+<p align="center">
+  <img src="static/labgeo-logo.png" alt="logo labgeo">
+</p>
+
+# Laboratórios Didáticos de Geoprocessamento 🌍📊
 
 Aulas práticas de Sensoriamento Remoto e Geoprocessamento utilizando o Google Earth Engine (GEE) e o Google Colab.
 Parte da disciplina de Geomática II (PTR3311) do curso de Engenharia Civil da Escola Politécnica da Universidade de São Paulo (Poli-USP).
 
 ## Lista de Laboratórios 📚
 
-1. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab1.ipynb) Introdução ao processamento digital de imagens, resoluções, metadados e busca por imagens no GEE
-2. Estatísticas, histogramas, contraste e composições de imagens no GEE
-3. Cálculo do NDVI e classificação não-supervisionada de imagens no GEE
-4. Mosaicos e classificação supervisionada de imagens no GEE
-5. Avaliação de classificação supervisionada de imagens no GEE
+1. [Introdução ao processamento digital de imagens, resoluções, metadados e busca por imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab1.ipynb)
+1. Estatísticas, histogramas, contraste e composições de imagens no GEE
+2. Cálculo do NDVI e classificação não-supervisionada de imagens no GEE
+3. Mosaicos e classificação supervisionada de imagens no GEE
+4. Avaliação de classificação supervisionada de imagens no GEE
 
 <!-- TODO: criar badges para cada um dos laboratórios  -->
 
@@ -17,7 +21,7 @@ Parte da disciplina de Geomática II (PTR3311) do curso de Engenharia Civil da E
 
 ### Opção 1: Google Colab (recomendado)
 
-- Clique no `badge` que aparece ao lado de cada laboratório na lista acima
+- Clique no `link` sobre o nome de cada laboratório na lista acima
 
 ### Opção 2: Clonar o repositório e executar localmente
 
@@ -47,7 +51,7 @@ Se você pretende desenvolver uma nova feature ou corrigir algum bug, siga os pa
 
 ## Licença 📜
 
-TBD
+Distribuído sob a licença GPL-3.0. Veja `LICENSE` para mais informações.
 
 ## Contato ✉️
 
