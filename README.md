@@ -11,7 +11,7 @@ Parte da disciplina de Geomática II (PTR3311) do curso de Engenharia Civil da E
 
 1. [Introdução ao processamento digital de imagens, resoluções, metadados e busca por imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab1.ipynb)
 2. [Estatísticas, histogramas, contraste e composições de imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab2.ipynb)
-3. Cálculo do NDVI e classificação não-supervisionada de imagens no GEE
+3. [Cálculo do NDVI e classificação não-supervisionada de imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab3.ipynb)
 4. Mosaicos e classificação supervisionada de imagens no GEE
 5. Avaliação de classificação supervisionada de imagens no GEE
 
