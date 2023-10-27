@@ -1,22 +1,39 @@
 K-means
 =======
 
-Neste laboratório é utilizado um método de agrupamento conhecido como k-means.
-O k-means trabalha com base em medidas de similaridade entre os objetos (pixels no caso de uma imagem) a fim de agrupá-los quando são similares, ou próximos entre si.
-Também existem outros métodos que consideram as medidas de dissimilaridade que ao invés da proximidade, trabalha com a distância (diferença) entre os objetos.
-Como os atributos (bandas) possuem valores numéricos e contínuos se utiliza uma métrica, ou medida, de distância. No caso, o usual, para o k-means com dados numéricos reais é o uso da distância euclidiana no espaço.
-O princípio do k-means é buscar uma similaridade alta dentro dos grupos (clusters) e uma similaridade baixa entre os objetos de clusters distintos (BOEHMKE; GREENWELL, 2019).
+Neste laboratório é utilizado um método de agrupamento conhecido como `k-means`.
+O k-means trabalha com base em medidas de similaridade entre os objetos
+(pixels no caso de uma imagem) a fim de agrupá-los quando são similares, ou
+próximos entre si.
+Também existem outros métodos que consideram as medidas de dissimilaridade que
+ao invés da proximidade, trabalha com a distância (diferença) entre os objetos.
+
+Como os atributos (bandas) possuem valores numéricos e contínuos se utiliza uma
+métrica, ou medida, de distância. No caso, o usual, para o k-means com dados
+numéricos reais é o uso da distância euclidiana no espaço.
+O princípio do k-means é buscar uma similaridade alta dentro dos grupos
+(clusters) e uma similaridade baixa entre os objetos de clusters distintos
+(BOEHMKE; GREENWELL, 2019).
+
 De forma resumida, o k-means segue os seguintes passos:
 
-Recebe um valor de entrada k <= n (onde n é o número de objetos do conjunto de dados), que é o número de grupos a ser formado e os dados que serão tratados;
-Seleciona de forma aleatória - ou direcionada e otimizada, como no caso do k-means++ descrito em ARTHUR e VASSILVITSKII (2006) - k objetos que serão as centróides iniciais;
-Calcula a distância dos objetos para as centróides;
-Cada objeto é associado com a centróide da qual ele tem a menor distância, fazendo assim parte desse grupo;
-Recalcula as centróides de cada grupo;
-Verifica se o centróide se deslocou consideravelmente:
-se não, termina o algoritmo,
-se sim volta para o passo 3.
-Um critério de máximo de interações pode ser utilizado para a parada do algoritmo após um certo número de execuções.
+#. Recebe um valor de entrada k <= n (onde n é o número de objetos do conjunto de dados), que é o número de grupos a ser formado e os dados que serão tratados;
+
+#. Seleciona de forma aleatória - ou direcionada e otimizada, como no caso do k-means++ descrito em ARTHUR e VASSILVITSKII (2006) - k objetos que serão as centróides iniciais;
+
+#. Calcula a distância dos objetos para as centróides;
+
+#. Cada objeto é associado com a centróide da qual ele tem a menor distância, fazendo assim parte desse grupo;
+
+#. Recalcula as centróides de cada grupo;
+
+#. Verifica se o centróide se deslocou consideravelmente:
+
+#. se não, termina o algoritmo,
+
+#. se sim volta para o passo 3.
+
+#. Um critério de máximo de interações pode ser utilizado para a parada do algoritmo após um certo número de execuções.
 
 
 WEKA - K-means (GEE)

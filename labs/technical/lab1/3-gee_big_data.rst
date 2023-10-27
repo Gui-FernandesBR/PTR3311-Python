@@ -1,20 +1,66 @@
-O GEE, arquitetura Big Data e padrões de computação paralela
-================================================================
+GEE, Big Data e Computação Paralela
+===================================
 
-O Google Earth Engine (GEE) é uma plataforma que lida com grandes volumes de dados de satélites usando arquitetura baseada em Cloud Computing, apropriada para o processamento de Big Data.
-Big Data refere-se a conjuntos de dados volumosos, variados e de alta velocidade (3xV).
-Para otimizar o processamento, o GEE utiliza computação paralela, com destaque para os padrões "Map" e "Reduce", que executam operações em paralelo em dados independentes.
+O `Google Earth Engine (GEE)`_ é uma plataforma de análise geoespacial baseada
+na nuvem, otimizada para o processamento de grandes conjuntos de dados.
+Utilizando uma arquitetura avançada de *Big Data* e técnicas de computação
+paralela, o GEE é capaz de realizar operações complexas em dados geoespaciais em
+grande escala e alta velocidade.
 
+.. _Google Earth Engine (GEE): https://earthengine.google.com/
 
-Figura 1 - Diagrama do padrão Map
-FONTE: adaptado de GRIEBLER (2011, p. 31)
+O conceito de *Big Data* é caracterizado pelos três Vs:
 
+- **Volumoso:** Grandes conjuntos de dados.
+- **Variado:** Diversidade de tipos de dados.
+- **Veloz:** Necessidade de processamento rápido.
 
-O padrão Reduction - também referido como Reduce - é um procedimento que executa operações de sumarização de dados, gerando uma saída única.
-Conceituando de forma direta, ele reduz o conjunto de dados a um único elemento com valor derivado dos dados de entrada - Figura 2.
+O GEE emprega padrões de computação paralela, como "map" e "reduce", para
+distribuir eficientemente as operações através de múltiplos processadores.
 
+Padrões de Computação Paralela
+------------------------------
 
-Figura 2 - Diagrama do padrão Reduce
-FONTE: adaptado de GRIEBLER (2011, p. 32)
+Map
+~~~
 
-Finalmente, o modelo MapReduce é uma combinação apropriada dos dois padrões discutidos acima, com o resultado de uma operação em Map sendo a entrada para uma em Reduce.
+O padrão "Map" aplica uma operação a cada item em um conjunto de dados,
+produzindo um novo conjunto de itens correspondentes, conforme ilustrado na
+Figura 1.
+
+.. figure:: ../../static/lab1/map_pattern.png
+   :align: center
+   :height: 200px
+   :alt: Diagrama do padrão Map
+
+   *Figura 1: Diagrama ilustrativo do padrão Map.
+   Adaptado de* [GRIEBLER2011]_
+
+Reduce
+~~~~~~
+
+O padrão "Reduce", por outro lado, sumariza ou agrega um conjunto de dados em um
+único valor ou conjunto menor, como mostrado na Figura 2.
+
+.. figure:: ../../static/lab1/reduction_pattern.png
+   :align: center
+   :height: 300px
+   :alt: Diagrama do padrão Reduce
+
+   *Figura 2: Representação esquemática do padrão Reduce.
+   Adaptado de* [GRIEBLER2011]_
+
+MapReduce
+~~~~~~~~~
+
+O modelo "MapReduce" combina os padrões "Map" e "Reduce". O conjunto de saídas
+gerado pela fase "Map" serve como entrada para a fase "Reduce", permitindo
+processamento eficiente e escalável em grandes volumes de dados.
+
+Referências
+-----------
+
+.. [GRIEBLER2011] GRIEBLER, Dalvan. *Padrões e Frameworks de Programação Paralela em Arquiteturas Multi-Core*.
+   Porto Alegre: SBC, 2011.
+   Disponível em: <http://www.pucrs.br/facin-prov/wp-content/uploads/sites/19/2016/03/tr064.pdf>.
+   Acesso em: 17 ago. 2020.
