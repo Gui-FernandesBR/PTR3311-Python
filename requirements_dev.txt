@@ -1,0 +1,5 @@
+black[jupyter]
+sphinx
+nbsphinx
+sphinx-book-theme
+myst-parser
