@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/labgeo-logo.png" alt="logo labgeo">
+  <img src="labs/static/labgeo-logo.png" alt="logo labgeo">
 </p>
 
 # Laboratórios Didáticos de Geoprocessamento 🌍📊
@@ -12,8 +12,8 @@ Parte da disciplina de Geomática II (PTR3311) do curso de Engenharia Civil da E
 1. [Introdução ao processamento digital de imagens, resoluções, metadados e busca por imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab1.ipynb)
 2. [Estatísticas, histogramas, contraste e composições de imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab2.ipynb)
 3. [Cálculo do NDVI e classificação não-supervisionada de imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab3.ipynb)
-4. Mosaicos e classificação supervisionada de imagens no GEE
-5. Avaliação de classificação supervisionada de imagens no GEE
+4. [Mosaicos e classificação supervisionada de imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab4.ipynb)
+5. [Avaliação de classificação supervisionada de imagens no GEE](https://colab.research.google.com/github/Gui-FernandesBR/PTR3311-Python/blob/master/labs/lab5.ipynb)
 
 <!-- TODO: criar badges para cada um dos laboratórios  -->
 
@@ -31,23 +31,19 @@ Parte da disciplina de Geomática II (PTR3311) do curso de Engenharia Civil da E
 
 ## Como contribuir 🤝
 
-Se você encontrou algum bug 🐞 ou tem alguma sugestão de melhoria 💡:
+Contribuições externas são sempre bem-vindas!
 
-1. Verifique se o bug já foi reportado
-2. Abra uma nova issue descrevendo o problema ou sugestão
+Você pode nos ajudar de diversas maneiras:
 
-Se você pretende desenvolver uma nova feature ou corrigir algum bug, siga os passos abaixo:
+1. Marcando um `star` no repositório (requer conta no GitHub)
+2. Reportando um `issue` com sugestões de melhorias ou correções
+3. Contribuindo com código, documentação ou correções de bugs
+4. Revisando a página de documentação e melhorando-a
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Faça o commit das suas alterações (`git commit -m 'Add some AmazingFeature'`)
-4. Faça o push para a branch criada (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-6. Adicione um título e uma descrição clara do que foi feito
-7. Adicione labels que descrevam sua feature
-8. Solicite um revisor
-9. Aguarde aprovação
-10. Após a aprovação, o seu Pull Request será mergeado
+Em todos os casos, lembre-se de seguir o [código de conduta](CODE_OF_CONDUCT.md).
+
+Leia o [guia de contribuição](CONTRIBUTING.md) para saber como contribuir com o
+projeto.
 
 ## Licença 📜
 
