@@ -16,7 +16,7 @@ Em alguns casos, a resolução é listada como *Resolution* para cada banda.
 Em outros casos, a resolução é a mesma para todas as bandas, e essa informação
 fica na parte superior da aba "BANDS".
 
-TODO: adicionar Figura  - Aba com as propriedades das bandas
+.. TODO: adicionar Figura  - Aba com as propriedades das bandas
 
 Resolução espectral
 -------------------------
@@ -26,7 +26,7 @@ das bandas e pelo número de bandas na coleção.
 Você pode verificar isso na coluna *Wavelength* da tabela na aba "BANDS".
 Note que algumas bandas podem conter informações adicionais além das espectrais.
 
-# TODO: adicionar Figura
+.. # TODO: adicionar Figura
 
 Resolução temporal 
 ----------------------------
@@ -37,7 +37,7 @@ seus manuais.
 Outra maneira de obter informações sobre a resolução temporal é verificar as
 datas de coleta das imagens.
 
-# TODO: adicionar Figura
+.. # TODO: adicionar Figura
 
 Resolução radiométrica
 ----------------------------
@@ -51,4 +51,4 @@ Para verificar a resolução radiométrica, é possível examinar o tipo de dado
 numérico dos pixels das bandas de uma imagem da coleção.
 
 
-# TODO: adicionar Figura
+.. # TODO: adicionar Figura

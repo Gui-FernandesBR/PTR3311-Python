@@ -2,6 +2,9 @@
   <img src="labs/static/labgeo-logo.png" alt="logo labgeo">
 </p>
 
+[![Documentação](https://readthedocs.org/projects/ptr3311-python/badge/?version=latest)](https://ptr3311-python.readthedocs.io/pt/latest/?badge=latest)
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
+
 # Laboratórios Didáticos de Geoprocessamento 🌍📊
 
 Aulas práticas de Sensoriamento Remoto e Geoprocessamento utilizando o Google Earth Engine (GEE) e o Google Colab.
@@ -28,6 +31,12 @@ Parte da disciplina de Geomática II (PTR3311) do curso de Engenharia Civil da E
 - Clone o repositório
 - Instale as dependências
 - Execute o Jupyter Notebook
+
+## Documentação 📖
+
+Encontre guias detalhados na nossa [documentação online](https://ptr3311-python.readthedocs.io/pt/latest/).
+
+Para aqueles que preferem formatos offline, a documentação também está disponível em [PDF](https://ptr3311-python.readthedocs.io/_/downloads/pt/latest/pdf/).
 
 ## Como contribuir 🤝
 

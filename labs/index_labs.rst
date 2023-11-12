@@ -1,7 +1,7 @@
 Laboratórios em Python
 ======================
 
-Esta é uma coleção de laboratórios de programação em Python, desenvolvidos para
+Esta é uma coleção de laboratórios de programação em *Python*, desenvolvidos para
 a disciplina de Geomática 2 da Escola Politécnica da Universidade de São Paulo (USP).
 
 .. toctree::
@@ -9,8 +9,8 @@ a disciplina de Geomática 2 da Escola Politécnica da Universidade de São Paul
    :caption: Índice:
    :glob:
 
-   Laboratório 1 <lab1.ipynb>
-   Laboratório 2 <lab2.ipynb>
-   Laboratório 3 <lab3.ipynb>
-   Laboratório 4 <lab4.ipynb>
-   Laboratório 5 <lab5.ipynb>
+   Lab 1 - Introdução ao GEE<lab1.ipynb>
+   Lab 2 - Estatísticas<lab2.ipynb>
+   Lab 3 - Classificação não-supervisionada<lab3.ipynb>
+   Lab 4 - Classificação supervisionada<lab4.ipynb>
+   Lab 5 - Avaliação de modelos<lab5.ipynb>

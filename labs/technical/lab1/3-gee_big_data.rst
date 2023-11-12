@@ -9,6 +9,9 @@ grande escala e alta velocidade.
 
 .. _Google Earth Engine (GEE): https://earthengine.google.com/
 
+Big Data
+--------
+
 O conceito de *Big Data* é caracterizado pelos três Vs:
 
 - **Volumoso:** Grandes conjuntos de dados.

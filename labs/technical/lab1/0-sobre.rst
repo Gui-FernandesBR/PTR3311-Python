@@ -45,10 +45,10 @@ O repositório se baseia nas seguintes premissas fundamentais:
 
 #. **Plataforma de Aprendizado Interativo:**
 
-   Utilizamos `Jupyter Notebooks`_ para uma experiência de aprendizado
-   interativa, permitindo a execução de código em blocos isolados. Graças à
-   compatibilidade com o `Google Colab`_, não é necessário instalar ambientes de
-   programação locais.
+    Utilizamos `Jupyter Notebooks`_ para uma experiência de aprendizado
+    interativa, permitindo a execução de código em blocos isolados. Graças à
+    compatibilidade com o `Google Colab`_, não é necessário instalar ambientes de
+    programação locais.
 
 #. **Acessibilidade Linguística:** Todos os laboratórios estão disponíveis em
     português, removendo barreiras linguísticas para falantes não nativos de

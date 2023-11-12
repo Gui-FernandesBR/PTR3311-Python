@@ -1,38 +1,102 @@
-Cadastro no GEE
-===============
+Cadastro no Google Earth Engine
+==============================
 
-Caso já tenha utilizado a plataforma alguma vez, os passos abaixo não serão mais
-necessários. 
+Aqui descrevemos o processo passo a passo para criar uma conta no
+Google Earth Engine (GEE).
 
-Caso nunca tenha utilizado a plataforma do GEE, acesse a página oficial em 
-https://earthengine.google.com/.
-Nela você deve selecionar `Without Cloud Project`.
-Essa página deve ser similar à da **Figura 3**.
-Clique no botão `Sign Up` para habilitar sua conta Google para utilizar o GEE.
-Uma página com um formulário será aberta, como nas **Figuras 4 e 5**.
-Preencha os dados de forma similar e não selecione a opção de uso comercial,
-caso contrário a conta não será habilitada.
-Clique para enviar o formulário (botão `SUBMIT`) e a página será redirecionada
-para outra confirmando o cadastro (**Figura 6**).
-Em alguns momentos você receberá um email com a confirmação do cadastro
-(**Figura 7**).
+Pré-requisitos
+--------------
+- Acesso à Internet.
+- Uma conta do Google (existente ou nova).
 
+Passos para Usuários Não-Comerciais
+-----------------------------------
 
-Figura 3 - Página inicial do Google Earth Engine 
+1. Acesse a página oficial do GEE em https://earthengine.google.com/ (testado em 25 de setembro de 2023).
 
+2. Escolha a opção ``Without Cloud Project``.
 
-Figura 4 - Formulário de cadastro da plataforma do GEE - primeira parte
+3. Clique em ``Sign Up`` para iniciar o processo de cadastro.
 
+4. Preencha o formulário apresentado. Não selecione a opção de uso comercial para garantir a ativação da conta.
 
-Figura 5 - Formulário de cadastro da plataforma do GEE - segunda parte
+5. Envie o formulário clicando em ``SUBMIT``. Você será redirecionado para uma página de confirmação.
 
+6. Aguarde o recebimento de um e-mail confirmando a ativação da sua conta.
 
-FIgura 6 - Confirmação do envio do pedido de cadastro no GEE
+.. .. image:: figs/gee_signup_confirmation.png
+..    :width: 100%
+..    :align: center
+..    :alt: Email de confirmação do cadastro no GEE
 
+Passos para Usuários Comerciais
+-------------------------------
 
-Figura 7 - Email com a confirmação do cadastro no GEE
+1. Usuários comerciais devem acessar o serviço do GEE através do Google Cloud.
 
+2. Crie ou associe um projeto existente no Google Cloud para usar com o GEE seguindo as instruções na página de registro do projeto.
 
-Caso já tenha utilizado a plataforma alguma vez, basta conectar com sua conta Google, os passos abaixo não serão mais necessários. 
+3. Os laboratórios desta disciplina foram criados visando o uso não comercial, portanto as instruções desta seção serão curtas.
 
-Caso nunca tenha utilizado a plataforma do GEE, acesse a página oficial em https://earthengine.google.com/ (testado em 25 de setembro de 2023). Nela você deve selecionar Without Cloud Project. Essa página deve ser similar a da Figura 3. Clique no botão “Sign Up” para habilitar sua conta Google para utilizar o GEE. Uma página com um formulário será aberta, como nas Figuras 4 e 5. Preencha os dados de forma similar e não selecione a opção de uso comercial, caso contrário a conta não será habilitada. Clique para enviar o formulário (botão “SUBMIT”) e a página será redirecionada para outra confirmando o cadastro (Figura 6). Em alguns momentos você receberá um email com a confirmação do cadastro (Figura 7).
+Opção para Criação de Nova Conta de Email
+-----------------------------------------
+
+1. Visite a URL “https://code.earthengine.google.com/”.
+
+2. Se for necessário, crie uma nova conta Google clicando em ``Create account`` e selecionando ``For myself``.
+
+3. Complete o processo de criação da conta e responda ao questionário sobre o uso do GEE.
+
+4. Aceite os Termos e Condições para finalizar a criação da conta.
+
+Associação do GEE a uma Conta de Email Existente
+------------------------------------------------
+
+1. Insira o seu e-mail Google existente e clique em ``Next``.
+
+2. Você será orientado a associar as credenciais do Earth Engine com sua conta de e-mail existente.
+
+3. Siga o link fornecido para completar a associação.
+
+Dicas para um Processo de Cadastro Suave
+----------------------------------------
+
+- Utilize o navegador Google Chrome.
+- Certifique-se de estar conectado com apenas uma conta Google ao se inscrever.
+- Prefira usar um e-mail de universidade/organização para se registrar.
+- Assegure que a configuração de grupos do Google esteja correta, permitindo que gerentes de grupos o adicionem aos seus grupos.
+
+.. .. note:: 
+
+..    O processo de aprovação pode levar de 1 a 2 dias. Portanto, realize esses passos o quanto antes.
+
+Figuras
+-------
+
+... em breve ...
+.. .. image:: figs/gee_home.png
+..    :width: 100%
+..    :align: center
+..    :alt: Página inicial do Google Earth Engine
+
+.. .. image:: figs/gee_signup_form_part1.png
+..    :width: 100%
+..    :align: center
+..    :alt: Formulário de cadastro do GEE - primeira parte
+
+.. .. image:: figs/gee_signup_form_part2.png
+..    :width: 100%
+..    :align: center
+..    :alt: Formulário de cadastro do GEE - segunda parte
+
+.. .. image:: figs/gee_signup_confirmation.png
+..    :width: 100%
+..    :align: center
+..    :alt: Confirmação de envio do cadastro do GEE
+
+.. .. image:: figs/gee_signup_email_confirmation.png
+..    :width: 100%
+..    :align: center
+..    :alt: Email de confirmação do cadastro do GEE
+
+Para mais informações, visite a [Guia do Usuário do Earth Engine](https://developers.google.com/earth-engine/guides).

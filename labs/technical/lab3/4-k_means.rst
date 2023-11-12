@@ -94,7 +94,7 @@ O resultado da execução é uma imagem, onde em cada pixel há o número do clu
                                         );
 
 
-Para visualizar a imagem classificada, basta utilizar a função “Map.addLayer()” como na Figura 10.
+Para visualizar a imagem classificada, basta utilizar a função ``Map.addLayer()`` como na Figura 10.
 O resultado da adição dessa imagem no mapa pode ser visto no exemplo da Figura 19.
 Na imagem adicionada, pode ser observado claramente limites em que a imagem se divide, gerando uma visualização confusa.
 Isso ocorre por causa do conceito de tiles do GEE.

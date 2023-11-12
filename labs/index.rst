@@ -6,6 +6,14 @@
 Laboratórios didáticos de Geoprocessamento
 ==========================================
 
+Este repositório contém os laboratórios didáticos da disciplina PTR3311 - 
+Geomática 2 da Escola Politécnica da USP. Os laboratórios são escritos em
+Python e utilizam o Jupyter Notebook como ambiente de desenvolvimento.
+
+Os notebooks estão disponíveis em formato .ipynb no nosso repositório do
+`GitHub <https://github.com/Gui-FernandesBR/PTR3311-Python>`_ e esta página
+contém a documentação completa dos laboratórios.
+
 .. toctree::
    :maxdepth: 2
    :caption: Índice:
@@ -13,5 +21,3 @@ Laboratórios didáticos de Geoprocessamento
    Documentação teórica <index_tech.rst>
    Laboratórios Python <index_labs.rst>
    Referências Bibliográficas <technical/refs.rst>
-
-.. include: ../README.md

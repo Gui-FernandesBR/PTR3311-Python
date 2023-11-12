@@ -13,11 +13,11 @@ a real performance do modelo em um conjunto independente.
 
 Como dito anteriormente, na fase da avaliação no conjunto de validação, caso o
 modelo tenha respondido exageradamente bem no conjunto treinamento e mal na
-avaliação sobre o conjunto de validação, pode ter ocorrido o chamado overfitting
+avaliação sobre o conjunto de validação, pode ter ocorrido o chamado *overfitting*
 (sobreajuste).
 Nesse caso, pode se voltar à inicialização para reparametrizar o modelo.
 Também pode ocorrer do modelo já responder mal na avaliação no próprio conjunto
-de treinamento, o chamado underfitting (sub-ajuste), significando que algo não
+de treinamento, o chamado *underfitting* (sub-ajuste), significando que algo não
 foi bem parametrizado no treinamento, o que as amostras são insuficientes ou
 desbalanceadas.
 
@@ -28,4 +28,4 @@ Também cabe ressaltar que o que é apresentado na Figura 1 a seguir pode ser
 generalizado para n modelos e parametrizações.
 
 
-# TODO: insert figure HERE
+.. # TODO: insert figure HERE

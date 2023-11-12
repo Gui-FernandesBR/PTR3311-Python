@@ -2,15 +2,20 @@ Sobre a disciplina
 ==================
 
 A disciplina de Geomática 2 (`PTR3311 <https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=PTR3311>`_)
-é oferecida pelo Departamento de Engenharia de Transportes da Escola Politécnica da USP.
+é oferecida pelo Departamento de Engenharia de Transportes (PTR) da Escola
+Politécnica da USP.
 Parte dessa disciplina é dedicada ao estudo de técnicas de (geo)processamento de
 imagens de sensoriamento remoto, e é nesse contexto que este material foi
 desenvolvido.
 
+O objetivo é apresentar os conceitos básicos de sensoriamento remoto e
+geoprocessamento, e introduzir o uso de ferramentas computacionais para o
+processamento de imagens de satélites.
+
 Sensoriamento Remoto
 ---------------------
 
-Sensoriamento remoto é uma ciência e arte de obter informações sobre um objeto,
+Sensoriamento remoto é a ciência e arte de obter informações sobre um objeto,
 área, ou fenômeno a partir de dados adquiridos por um dispositivo que não está
 em contato direto com o objeto, área ou fenômeno investigado [LILLESAND2015]_.
 
