@@ -8,6 +8,3 @@ de dados.
 
 Além desses, os conceitos relativos ao ajuste de contraste em composições
 coloridas com as bandas de imagens podem ser encontrados em [CROSTA1992]_.
-
-Na parte de programação, durante o laboratório, serão oportunamente apresentados
-os conceitos necessários para o desenvolvimento das aplicações de interesse.

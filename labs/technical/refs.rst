@@ -1,7 +1,7 @@
 Referências Bibliográficas
 ===========================
 
-.. TODO: deveríamos usar o formato do bibtex para as referências, mais proffisional
+.. TODO: deveríamos usar o formato do bibtex para as referências, mais profisional
 
 .. [ARTHUR2006] ARTHUR, D.; VASSILVITSKII, S. *k-means++: The advantages of careful seeding*. Stanford, 2006.
 
@@ -20,8 +20,11 @@ Referências Bibliográficas
 .. [GINCIENE2011] GINCIENE, B. R.; BITENCOURT, M. D. *Utilização do EVI (Enhanced Vegetation Index) para maior sensibilidade na detecção de mudanças temporais em fragmentos de floresta estacional semidecidual*.
    Simpósio Brasileiro de Sensoriamento Remoto, Curitiba, PR, 2011.
 
-.. [GORELICK2017] GORELICK, N. et al. *Google Earth Engine: Planetary-scale geospatial analysis for everyone*.
-   Remote Sensing of Environment, [s. l.], v. 202, p. 18-27, 1 dez. 2017.
+.. [GORELICK2017] GORELICK, N.; HANCHER, M.; DIXON, M.; ILYUSHCHENKO, S.; THAU, D.; MOORE, R.
+   *Google Earth Engine: Planetary-scale geospatial analysis for everyone*.
+   Remote Sensing of Environment, v. 202, 2017, p. 18-27. ISSN 0034-4257.
+   Disponível em: https://www.sciencedirect.com/science/article/pii/S0034425717302900.
+   Acesso em: [data de acesso].
 
 .. [GRIEBLER2011] GRIEBLER, D. *Padrões e Frameworks de Programação Paralela em Arquiteturas
    Multi-Core*. Porto Alegre: PUCRS, 2011. Disponível em:

@@ -2,7 +2,7 @@ Conceitos básicos
 ======================
 
 Antes de iniciar com os laboratórios, pode ser importante revisar alguns
-conceitos:
+conceitos sobre a disciplina e sobre a linguagem *Python*.
 
 .. toctree::
    :maxdepth: 1

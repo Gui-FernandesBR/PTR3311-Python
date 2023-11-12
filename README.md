@@ -3,6 +3,7 @@
 </p>
 
 [![Documentação](https://readthedocs.org/projects/ptr3311-python/badge/?version=latest)](https://ptr3311-python.readthedocs.io/pt/latest/?badge=latest)
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 
 # Laboratórios Didáticos de Geoprocessamento 🌍📊
 

@@ -16,4 +16,5 @@ disponíveis) e também um link para o próximo tópico.
    Arquitetura do GEE <3-gee_big_data.rst>
    Tipos de dados no GEE <4-tipos_dados.rst>
    Resoluções das imagens <5-resolucoes.rst>
+   Iniciando o Colab <3-inicio_colab.rst>
    Referências <6-refs.rst>
