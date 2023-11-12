@@ -1,23 +1,54 @@
 Avaliação e seleção de modelo
 =================================
 
+Importância da avaliação do modelo
+----------------------------------
+
 Para avaliar a performance de um método de classificação, idealmente devem ser
 utilizados conjuntos de dados separados do que foi utilizado para se treinar o
 classificador.
 Isso é importante para uma escolha apropriada do modelo e seus parâmetros, além
 de se obter uma medida da qualidade do modelo escolhido.
 
-A seleção de modelo tem por objetivo checar a performance de diferentes modelos
-para se escolher o melhor.
-Já a avaliação de um modelo é uma forma de, dado um modelo escolhido, estimar
-seu erro de predição sobre novos dados [FRIEDMAN2019]_.
+Seleção do modelo 
+------------------
 
-Para se executar as duas tarefas citadas, uma forma adequada é se definir a
-amostra apresentada e dividi-la em três partes: uma parte para treinamento do
-modelo (_training_ _dataset_), outra chamada de conjunto de validação
-(_validation_ _dataset_) e finalmente uma que é conhecida por conjunto de teste
-(_test_ _dataset_).
-Normalmente, esses subconjuntos da amostra são separados na proporção de 70%
-para o de treinamento, 15% para o de validação e 15% para o de teste.
-Não há uma regra fixa para essas proporções, mas é uma prática comum no meio da
-ciência de dados.
+A seleção de modelo tem o objetivo de verificar a performance de diferentes
+modelos para escolher o melhor. Isso envolve comparar as características de cada
+modelo, como a eficiência e a precisão na classificação.
+
+Avaliação do modelo
+--------------------
+
+A avaliação de um modelo, por sua vez, é o processo de estimar o erro de
+predição do modelo escolhido sobre novos dados [FRIEDMAN2001]_.
+Essa etapa é crucial para garantir que o modelo selecionado seja eficaz em
+cenários reais e com dados que não foram utilizados durante o treinamento.
+
+
+Divisão da Amostra
+------------------
+
+Para executar adequadamente as tarefas de seleção e avaliação, uma prática comum é dividir a amostra apresentada em três partes:
+
+#. Conjunto de Treinamento (*Training Dataset*): Geralmente compõe 70% da amostra e é usado para treinar o modelo.
+#. Conjunto de Validação (*Validation Dataset*): Representa cerca de 15% da amostra e é utilizado para ajustar os parâmetros do modelo.
+#. Conjunto de Teste (*Test Dataset*): Também compreendendo 15% da amostra, é usado para avaliar a performance do modelo final.
+
+Essas proporções não são regras fixas, mas são comumente utilizadas na ciência de dados.
+
+Seleção do melhor modelo
+------------------------
+
+Medida de Qualidade
+~~~~~~~~~~~~~~~~~~~
+Para escolher o melhor modelo, é necessário ter uma medida de qualidade para
+cada um.
+No contexto da classificação no Google Earth Engine (GEE), a acurácia associada
+à matriz de confusão é frequentemente usada como essa medido.
+
+Escolhendo o Modelo com Maior Acurácia
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Em geral, o modelo que apresenta a maior acurácia é considerado o melhor.
+Este critério leva em conta a capacidade do modelo de classificar corretamente
+novos dados, o que é um indicador chave de seu desempenho.

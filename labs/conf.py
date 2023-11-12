@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "PTR3311-Python"
-copyright = "2023, Guilherme"
-author = "Guilherme"
+project = "Laboratórios didáticos de Geoprocessamento"
+copyright = "2023, LabGeo - Escola Politécnica da Universidade de São Paulo"
+author = "Guilherme Fernandes Alves"
 release = "v0.1"
 
 # -- General configuration ---------------------------------------------------
@@ -62,11 +62,11 @@ latex_logo = "static/labgeo-logo.png"
 # -- Options for GitHub button -----------------------------------------------
 
 html_context = {
-    # "github_url": "https://github.com", # or your GitHub Enterprise site
-    "github_user": "<your-github-org>",
-    "github_repo": "<your-github-repo>",
-    "github_version": "<your-branch>",
-    "doc_path": "<path-from-root-to-your-docs>",
+    # "github_url": "https://github.com",
+    "github_user": "Gui-FernandesBR",
+    "github_repo": "PTR3311-Python",
+    "github_version": "master",
+    "doc_path": "labs",
 }
 
 # source_suffix = {
