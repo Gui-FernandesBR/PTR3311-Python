@@ -13,3 +13,4 @@ a disciplina de Geomática 2 da Escola Politécnica da Universidade de São Paul
    Laboratório 2 <lab2.ipynb>
    Laboratório 3 <lab3.ipynb>
    Laboratório 4 <lab4.ipynb>
+   Laboratório 5 <lab5.ipynb>

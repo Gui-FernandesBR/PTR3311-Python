@@ -11,9 +11,3 @@ coloridas com as bandas de imagens podem ser encontrados em [CROSTA1992]_.
 
 Na parte de programação, durante o laboratório, serão oportunamente apresentados
 os conceitos necessários para o desenvolvimento das aplicações de interesse.
-
-Referências Bibliográficas
---------------------------
-
-.. [CROSTA1992] CRÓSTA, A. P. *Processamento Digital de Imagens de Sensoriamento Remoto*.
-    Campinas: Instituto de Geociências, UNICAMP, 1992.

@@ -10,7 +10,8 @@ Laboratórios didáticos de Geoprocessamento
    :maxdepth: 2
    :caption: Índice:
 
-   Laboratorios Python <index_labs.rst>
    Documentação teórica <index_tech.rst>
+   Laboratórios Python <index_labs.rst>
+   Referências Bibliográficas <technical/refs.rst>
 
-.. include ../README.md
+.. include: ../README.md

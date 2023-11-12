@@ -18,8 +18,4 @@ Com respeito à diferença entre NIR e RED, quanto maior, mais forte está a
 vegetação.
 As áreas sem vegetação devem obter valores baixos de NDVI [LILLESAND2015]_
 
-.. [TUCKER1979] TUCKER, C. J. *Red and photographic infrared linear combinations for monitoring vegetation*.
-    Remote sensing of Environment, v. 8, n. 2, p. 127-150, 1979.
-
-.. [LILLESAND2015] Thomas; KIEFER, Ralph W.; CHIPMAN, Jonathan. *Remote sensing and image interpretation*.
-    John Wiley & Sons, 2015.
+Devem ser calculados os índices NDBI - Normalized Difference Built-Up Index - (OLIVEIRA; CANDEIAS; TAVARES, 2019) e EVI - Enhanced Vegetation Index - (GINCIENE; BITENCOURT, 2011) para serem 

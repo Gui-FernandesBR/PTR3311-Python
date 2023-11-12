@@ -1,10 +1,12 @@
 Tipos de dados do GEE
 =========================
 
-- **Images**: Dados raster que armazenam informações numéricas em forma de matriz.
-- **Image Collections**: Coleções de objetos do tipo *Image*.
-- **Feature**: Dados vetoriais que contêm geometrias e atributos.
-- **Feature Collection**: Um grupo de objetos do tipo *Feature*.
+As principais classes para armazenamento de dados do GEE são:
+
+- **ee.Image**: Dados raster que armazenam informações numéricas em forma de matriz.
+- **ee.ImageCollection**: Coleções de objetos do tipo *Image*.
+- **ee.Feature**: Dados vetoriais que contêm geometrias e atributos.
+- **ee.FeatureCollection**: Um grupo de objetos do tipo *Feature*.
 
 Dados do tipo Raster
 --------------------

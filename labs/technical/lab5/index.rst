@@ -12,3 +12,4 @@ Documentação teórica do quinto laboratório.
    Descrição <1-desc.rst>
    Processo <2-processo.rst>
    Referências <3-refs.rst>
+   Exemplos <4-exemplos.rst>

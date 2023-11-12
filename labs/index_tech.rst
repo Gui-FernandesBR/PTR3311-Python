@@ -11,7 +11,9 @@ conceitos e as técnicas utilizadas durante os laboratórios.
    :caption: Índice:
    :glob:
 
+   technical/basics/index.rst
    technical/lab1/index.rst
    technical/lab2/index.rst
    technical/lab3/index.rst
    technical/lab4/index.rst
+   technical/lab5/index.rst

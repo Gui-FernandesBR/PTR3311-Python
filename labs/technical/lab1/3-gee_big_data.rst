@@ -56,11 +56,3 @@ MapReduce
 O modelo "MapReduce" combina os padrões "Map" e "Reduce". O conjunto de saídas
 gerado pela fase "Map" serve como entrada para a fase "Reduce", permitindo
 processamento eficiente e escalável em grandes volumes de dados.
-
-Referências
------------
-
-.. [GRIEBLER2011] GRIEBLER, Dalvan. *Padrões e Frameworks de Programação Paralela em Arquiteturas Multi-Core*.
-   Porto Alegre: SBC, 2011.
-   Disponível em: <http://www.pucrs.br/facin-prov/wp-content/uploads/sites/19/2016/03/tr064.pdf>.
-   Acesso em: 17 ago. 2020.

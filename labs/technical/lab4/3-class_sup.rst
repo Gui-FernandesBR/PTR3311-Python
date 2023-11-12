@@ -37,9 +37,4 @@ método de aprendizado de máquina (procedimento chamado de bagging).
 Para se obter o resultado desejado, um grupo de árvores é construído usando
 conjuntos de treinamento a partir da amostragem por bootstrap.
 Além disso, o Random Forest é capaz de descorrelacionar as árvores geradas.
-Mais detalhes dessas implementações podem ser encontradas em [FRIEDMAN2019]_
-
-Referencias
-----------------------
-
-.. [FRIEDMAN2019] 
+Mais detalhes dessas implementações podem ser encontradas em [FRIEDMAN2001]_
