@@ -1,5 +1,5 @@
 Cadastro no Google Earth Engine
-==============================
+================================
 
 Aqui descrevemos o processo passo a passo para criar uma conta no
 Google Earth Engine (GEE).
