@@ -17,3 +17,4 @@ conceitos e as técnicas utilizadas durante os laboratórios.
    technical/lab3/index.rst
    technical/lab4/index.rst
    technical/lab5/index.rst
+   technical/labX/index.rst
